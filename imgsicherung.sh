@@ -3,7 +3,7 @@
 
 # Erstellen der img Datei mit dd
 # Hier ist es eigentlich besser einen gemounteten USB Stick als output file anzugeben da der Pi zu wenig Speicherplatz hat
-sudo dd if=/dev/mmcblk0 of=/home/pi/imgsicherung/cookiePi.img
+sudo dd if=/dev/mmcblk0 of=~/CookiePi.img
 
 # Mit folgendem Kommando kann der aktuelle Stand der img Erstellung ausgegben werden
 # pkill -USR1 -x dd
