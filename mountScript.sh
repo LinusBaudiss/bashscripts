@@ -5,5 +5,5 @@ then
 	echo "Run as root!"
 	exit 1
 fi
-mount -t cifs -o user=Linus,password=Herbst64# //192.168.2.200/Dateien /home/linus/mnt/dateien
-mount -t cifs -o user=Linus,password=Herbst64# //192.168.2.200/temp /home/linus/mnt/temp
+mount -t cifs -o user=Linus,password=NASServer# //192.168.2.200/Dateien /home/linus/mnt/dateien
+mount -t cifs -o user=Linus,password=NASServer# //192.168.2.200/temp /home/linus/mnt/temp
